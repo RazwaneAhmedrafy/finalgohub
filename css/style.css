@@ -1,0 +1,691 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+a, a:hover{
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+}
+/*global css end*/
+/*header-section css start*/
+.header{
+	width: 100%;
+	background: url(../images/banner.png) center top no-repeat;
+	background-size: contain;
+	padding: 40px 0px;
+}
+.header .bg-light {
+    background-color: transparent !important;
+    padding-left: 0px;
+}
+.header .menu {
+	width: 100%;
+}
+
+.header .menu .navbar-light .navbar-nav .nav-link {
+    color: #32325d;
+    font-weight: 700;
+    padding: 0px 25px;
+    text-transform: capitalize;
+    transition: 1s;
+}
+.header .menu .navbar-light .navbar-nav .nav-link:hover, .header .menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #845cff;
+}
+
+.header .menu .btn-primary{
+	background: #845cff;
+	font-weight: 500;
+	transition: 1s;
+	padding: 6px 22px;
+	border: 1px solid #845cff;
+
+}
+.header .menu .btn-primary:hover{
+	color: #845cff;
+	background: transparent;
+	border: 1px solid transparent;
+}
+.header .banner {
+    width: 100%;
+    padding: 110px 0px;
+    padding-bottom: 17px;
+}
+.banner .inner-banner h2 {
+    color: #32325d;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: 45px;
+    margin-top: 80px;
+}
+.banner .inner-banner p{
+	color: #525f7f;
+	font-weight: 500;
+    margin-bottom: 30px;
+}
+.banner .inner-banner .btn-primary{
+	background: #845cff;
+	font-weight: 500;
+	transition: 1s;
+	padding: 6px 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 1px solid #845cff;
+}
+.banner .inner-banner .btn-primary:hover, .banner .inner-banner .btn-primary:focus{
+	color: #845cff;
+	background: transparent;
+	border: 1px solid transparent;
+
+}
+.banner .inner-banner span{
+	color: #4d4d73;
+	font-weight: 600;
+	padding-left: 20px;
+}
+.about-head {
+    margin-top: 175px;
+}
+.about-head .inner-about h2 {
+    color: #32325d;
+    line-height: 35px;
+    font-size: 30px;
+}
+.about-head .inner-about p{
+	color: #525f7f;
+	font-weight: 400;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.about {
+   padding-right: 100px;
+}
+.about .inner-about{
+    background: #fff;
+    box-shadow: 1px 4px 20px #f8f8fe;
+    padding: 35px 35px 0px 35px;
+}
+.about .inner-about img{
+	margin-bottom: 25px;
+}
+.about .inner-about h5{
+color: #212240;
+line-height: 45px;
+}
+.about .inner-about p{
+	color: #525f7f;
+	font-weight: 400;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+/*header-section css end*/
+/*Service-section css start*/
+
+.service{
+	width: 100%;
+	padding: 40px;
+	text-align: center;
+	background: url(../images/servicebg.png)center top no-repeat;
+	background-size: cover;
+}
+.service .inner-service{
+	width: 100%;
+}
+.service .inner-service h2 {
+    color: #32325d;
+    line-height: 35px;
+    font-size: 30px;
+}
+.service .inner-service p{
+	color: #525f7f;
+	font-weight: 400;
+    margin-bottom: 100px;
+    padding-top: 10px;
+}
+.service .service-text {
+
+}
+.service .service-text img{
+padding-bottom: 40px;
+}
+.service .service-text h6{
+color: #212240;
+font-size: 20px;
+padding-bottom: 5px;
+}
+.service .service-text p{
+font-weight: 300;
+color: #525f7f;
+margin-bottom: 100px;
+
+}
+/*Service-section css end*/
+
+/*what-section css start*/
+.what{
+	width: 100%;
+	padding: 120px 0px;
+	padding-bottom: 50px;
+}
+.what .img-fluid {
+    margin-bottom: 110px;
+}
+.what .what-text{
+	width: 100%;
+	padding-bottom: 20px;
+}
+.what .what-text h2{
+	 color: #32325d;
+    line-height: 45px;
+    font-size: 30px;
+}
+.what .what-text p{
+	color: #525f7f;
+	font-weight: 300;
+}
+.what .inner-drive h4{
+ color: #32325d;
+
+}
+.what .inner-drive p{
+	color: #525f7f;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+.what .btn-primary{
+	background: #845cff;
+	font-weight: 500;
+	transition: 1s;
+	padding: 6px 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 1px solid #845cff;
+}
+.what .btn-primary:hover, .what .btn-primary:focus{
+	color: #845cff;
+	background: transparent;
+	border: 1px solid transparent;
+}
+.what span{
+	color: #4d4d73;
+	font-weight: 600;
+	padding-left: 20px;
+}
+/*what-section css end*/
+/*do-section css start*/
+.do{
+	width: 100%;
+	padding: 20px;
+	background: url(../images/dobg.png) center right no-repeat;
+	background-size: contain;
+}
+.do .finance{
+	width: 100%;
+
+}
+.do .finance h2{
+	color: #32325d;
+    line-height: 45px;
+    font-size: 30px;
+	
+}
+.do .finance p{
+		color: #525f7f;
+	font-weight: 300;
+	margin-bottom: 45px;
+	
+}
+.save h4{
+	color: #32325d;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.save .inner-save{
+	color: #32325d;
+	font-weight: 300;
+}
+.save .inner-save img{
+	padding-right: 20px;
+}
+.save .inner-save .image{
+	margin-bottom: 20px;
+}
+.safety{
+	width: 100%;
+	padding:35px 0px 80px 0px;
+}
+/*do-section css end*/
+
+/*demo-section css start*/
+.demo{
+	width: 100%;
+	padding: 60px 0px;
+	background: #fafaff;
+}
+.demo .inner-demo img{
+	padding-bottom: 25px;
+}
+.demo .inner-demo h2{
+	color: #32325d;
+    line-height: 45px;
+    font-size: 30px;
+    padding-bottom: 10px;
+	
+}
+.demo .inner-demo p{
+	color: #525f7f;
+	font-weight: 300;
+}
+.demo .form{
+	padding-top: 37px;
+	position: relative;
+}
+.demo .form .btn-primary {
+    position: absolute;
+    top: 44px;
+    right: 14px;
+}
+.demo .form .form-control {
+	color: #8081ab;
+	background: #fff;
+	padding: 25px;
+}
+.demo .form .btn-primary{
+	background: #845cff;
+	font-weight: 500;
+	transition: 1s;
+	padding: 6px 22px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-right: 0px;
+	border: 1px solid #845cff;
+}
+.demo .form .btn-primary:hover, .demo .form .btn-primary:focus{
+	color: #845cff;
+	background: transparent;
+	border: 1px solid transparent;
+}
+/*demo-section css end*/
+/*footer-section css start*/
+.footer{
+	width: 100%;
+	padding: 50px 0px;
+	background: #212240;
+}
+.footer .inner-footer{
+	width: 100%;
+	margin:30px 0px;
+
+}
+.footer .inner-footer p{	
+	color: #dfdfe2;
+	margin: 30px 0px;
+}
+.footer .inner-footer ul {
+ list-style: none;
+}
+.footer .inner-footer a{
+	 color: #555377;
+	 padding-right: 25px;
+	 transition: 1s;
+}
+.footer .inner-footer a:hover{
+	 color: #fff;
+}
+.footer .footer-text{
+	width: 100%;
+	margin: 30px 0px;
+	padding-bottom: 40px;
+}
+.footer .footer-text ul{
+	list-style: none;
+}
+.footer .footer-text ul li a{
+	text-decoration: none;
+	color: #dfdfe2;
+	margin-bottom: 20px;
+	display: block;
+	transition: 1s;
+}
+.footer .footer-text ul li a:hover, .footer .footer-text ul li a:focus{
+	color: #555377;
+}
+.footer .offer ul li a{
+	margin-bottom: 35px;
+}
+.bottom-footer p{
+	color: #555377;
+	font-weight: 400;
+}
+.bottom-footer ul{
+	list-style: none;
+}
+.bottom-footer ul li a{
+	color: #555377;
+	text-decoration: none;
+	padding-right: 25px;
+	font-weight: 400;
+	transition: 1s;
+}
+.bottom-footer ul li a:hover, .bottom-footer ul li a:focus{
+	color: #fff;
+}
+/*footer-section css end*/
+
+/***************************************************
+
+                  responsive code start
+
+/***************************************************/
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /**************************************************/
+.header .menu .btn-primary { 
+   font-size: 13px;
+   padding: 4px 18px;
+
+}
+.header .banner {
+   
+    padding: 10px 0px;
+    padding-bottom: 17px;
+}
+.banner .inner-banner h2 {
+    line-height: 32px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+.header .menu .navbar-light .navbar-nav .nav-link {
+    padding: 0px 2px;
+}
+.banner .inner-banner span {
+    padding-left: 8px;
+    font-size: 13px;
+}
+.banner .inner-banner .btn-primary {
+   padding: 4px 18px;
+    font-size: 13px;
+}
+.about-head {
+    margin-top: 20px;
+}
+.about-head .inner-about h2 {
+    line-height: 25px;
+    font-size: 28px;
+}
+.about .inner-about h5 {
+    line-height: 32px;
+}
+.about .inner-about p {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.about .inner-about {
+    padding: 15px 0px 0px 0px;
+}
+.header {
+    padding: 20px 0px;
+}
+.service {
+    padding: 20px 0px;
+}
+.service .inner-service h2 {
+    line-height: 30px;
+    font-size: 27px;
+}
+.service .inner-service p {
+    margin-bottom: 40px;
+    padding-top: 5px;
+}
+.service .service-text p {
+    margin-bottom: 15px;
+}
+.what {
+    width: 100%;
+    padding: 20px 0px;
+    padding-bottom: 20px;
+}
+.what .what-text h2 {
+    line-height: 35px;
+    font-size: 28px;
+}
+.what .what-text h2 {
+    line-height: 33px;   
+    font-size: 25px;
+}
+.what .inner-drive p {
+    margin-bottom: 20px;
+}
+.what .btn-primary {
+    padding: 4px 18px;
+    font-size: 14px;
+}
+.what span {
+    padding-left: 8px;
+    font-size: 13px;
+}
+.what .img-fluid {
+    margin-bottom: 30px;
+}
+.do .finance h2 {
+    line-height: 35px;
+    font-size: 28px;
+}
+.do .finance p {
+    margin-bottom: 25px;
+}
+.save .inner-save img {
+    padding-right: 10px;
+}
+.safety {
+    padding: 15px 0px 40px 0px;
+}
+.demo .form .form-control {
+    padding: 30px;
+}
+.demo .form .btn-primary {
+    padding: 4px 18px;
+    }
+    .demo {
+    padding: 20px 0px;  
+}
+.demo .inner-demo h2 {
+    line-height: 35px;
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+.demo .form {
+    padding-top: 15px;
+}
+.demo .form .btn-primary {
+    top: 23px;
+}
+.footer {
+    padding: 20px 0px;
+}
+.footer .inner-footer p {
+    margin: 15px 0px;
+}
+.footer .footer-text {
+    margin: 10px 0px;
+    padding-bottom: 10px;
+}
+.footer .footer-text ul li a {
+    margin-bottom: 10px;
+
+}
+.footer .offer ul li a {
+    margin-bottom: 10px;
+}
+.demo .form .btn-primary {
+    padding: 4px 18px;
+    padding-right: 0px;
+    font-size: 13px;
+}
+
+
+
+  /***************************************************/
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /*****************************************************/
+   .header .banner {
+    width: 100%;
+    padding: 30px 0px;
+    padding-bottom: 17px;
+} 
+.banner .inner-banner h2 {
+    margin-bottom: 25px;
+    line-height: 35px;
+    margin-top: 38px;
+}
+.about-head {
+    margin-top: 20px;
+}
+.about-head .inner-about h2 {
+    line-height: 25px;
+    font-size: 28px;
+}
+.about .inner-about h5 {
+    line-height: 35px;
+}
+.about .inner-about p {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.about .inner-about {
+    padding: 25px 25px 0px 25px;
+}
+.header {
+    padding: 25px 0px;
+}
+.service {
+    padding: 25px;
+}
+.service .inner-service h2 {
+    line-height: 30px;
+    font-size: 28px;
+}
+.service .inner-service p {
+    margin-bottom: 70px;
+    padding-top: 5px;
+}
+.service .service-text p {
+    margin-bottom: 40px;
+}
+.what {
+    padding: 30px 0px;
+    padding-bottom: 25px;
+}
+.what .what-text h2 {
+    line-height: 33px;
+    font-size: 28px;
+}
+.what .inner-drive p {
+    margin-bottom: 35px;
+}
+.do .finance h2 {
+    line-height: 35px;
+    font-size: 28px;
+}
+.do .finance p {
+    margin-bottom: 35px;
+}
+.safety {
+    padding: 35px 0px 50px 0px;
+}
+.demo {
+    padding: 50px 0px;   
+}
+.demo .inner-demo h2 {
+    line-height: 30px;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.demo .form .btn-primary {
+    top: 36px;
+}
+.footer .footer-text {
+    margin: 15px 0px;
+    padding-bottom: 20px;
+}
+  /*****************************************************/
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1020px) {
+  /*****************************************************/
+  .header .banner {
+    padding: 80px 0px;
+    padding-bottom: 17px;
+}
+.about {
+    padding-right: 30px;
+}
+.header {
+    padding: 30px 0px;
+}
+.service {
+    padding: 35px;
+}
+.what {
+    padding: 50px 0px;
+    padding-bottom: 40px;
+}
+.service .service-text p {
+    margin-bottom: 50px;
+}
+.what .what-text h2 {
+    line-height: 40px;  
+}
+.what span {
+    padding-left: 9px;
+    font-size: 13px;
+}
+.what .btn-primary {
+    padding: 4px 18px;
+    font-size: 14px;
+}
+.demo {
+    padding: 45px 0px;
+}
+.safety {
+    padding: 35px 0px 55px 0px;
+}
+.footer .inner-footer p {
+    font-size: 14px;
+    margin: 20px 0px;
+}
+.footer .inner-footer a {
+    padding-right: 20px;
+}
+.footer .offer ul li a {
+    margin-bottom: 20px;
+}
+  /******************************************************/
+}
